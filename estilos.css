@@ -1,0 +1,24 @@
+button{
+    background-color: rgb(255, 162, 49);
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    text-decoration: solid;
+    
+}
+input{
+    
+    border-color: blueviolet;
+}
+div{
+    display: flex;
+    
+    justify-content:center;
+    
+    
+
+    border: 2px;
+    border-color: black;
+    background-color:bisque ;
+
+}
