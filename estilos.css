@@ -12,9 +12,9 @@ input{
 }
 div{
     display: flex;
-    
-    justify-content:center;
-    
+    flex-wrap: wrap;
+    align-items:flex-start;
+    row-gap: 1rem;
     
 
     border: 2px;
