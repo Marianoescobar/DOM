@@ -1,20 +1,28 @@
 
 
-const contenedor =document.getElementById("container")
+const contenedor =document.getElementById("container");
+let titulo = "";
+let imagen= "";
+let descripcion = "";
 
-const titulo = document.getElementById("titulo").value;
-const imagen= document.getElementById("foto").value;
-const descripcion =document.getElementById("parrafo").value;
 
-const  btn= document.querySelector("button");
+const  btn = document.querySelector("button");
 
-btn.addEventListener("click",handleClick);
-function handleClick() { 
-    
-    let card = document.createElement("div");
+btn.addEventListener("click", (e)=>{ 
+
+   
+    titulo = document.getElementById("titulo").Value;
+    imagen= document.getElementById("foto").Value;
+    descripcion = document.getElementById("parrafo").Value;
+ 
+
+
+  let card = document.createElement("div")
     card= innerHTML=`
     <h2>${titulo } </h2>
     <img src=${imagen } alt=${titulo}>
-    <p> ${descripcion}</p>`}
-contenedor.appendChild(card);
-console.log(card);
+    <p> ${descripcion}}</p>`;
+    contenedor.appendChild(card);
+
+});
+
