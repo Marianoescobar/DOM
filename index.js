@@ -11,8 +11,8 @@ function crearTarjeta (){
   titulo = document.getElementById("titulo").value;
  imagen= document.getElementById("foto").value;
 let descripcion = document.getElementById("parrafo").value;
-//let btn = document.getElementById("boton").
-//addEventListener  ("Click",crearTarjeta) 
+
+
 
   
 
