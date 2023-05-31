@@ -1,22 +1,20 @@
 
 
-const contenedor =document.getElementById("container");
-let titulo = "";
+
+const contenedor= document.getElementById("container");
+let titulo="";
 let imagen= "";
-let descripcion = "";
-
-
-const  btn = document.getElementById("boton")
-btn.addEventListener("click",crearTarjeta); 
-
-function crearTarjeta(){ 
-
-   
-    titulo = document.getElementById("titulo").value;
-    imagen= document.getElementById("foto").value;
-    descripcion = document.getElementById("parrafo").value;
+let descripcion= "";
  
 
+function crearTarjeta (){ 
+  titulo = document.getElementById("titulo").value;
+ imagen= document.getElementById("foto").value;
+let descripcion = document.getElementById("parrafo").value;
+//let btn = document.getElementById("boton").
+//addEventListener  ("Click",crearTarjeta) 
+
+  
 
   let card = document.createElement("div")
     card.innerHTML=`

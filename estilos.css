@@ -6,15 +6,19 @@ button{
     text-decoration: solid;
    
     box-shadow:10px 3px 10px  2px rgb(11, 1, 78);
-border-radius: 60px;}
+border-radius: 32px;}
+.foto{border-color: blueviolet;
+    width: 100em;
+    height: 50px;
 
+}
 input{
     
     border-color: blueviolet;
     width: 100px;
     height: 50px;
 }
-div{
+{
     
 background-color: cornflowerblue;
 display: flex;
